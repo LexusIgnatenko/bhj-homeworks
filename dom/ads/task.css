@@ -3,7 +3,32 @@
 }
 
 .rotator__case_active {
-  display: inline;
+  color: red;
+  /* Изначально красный */
+  font-weight: bold;
+  display: inline-block;
 }
+
+/* Остальные стили, такие как цвета, определяются атрибутом data-color */
+[data-color="red"] {
+  color: red;
+}
+
+[data-color="green"] {
+  color: green;
+}
+
+[data-color="blue"] {
+  color: blue;
+}
+
+[data-color="yellowgreen"] {
+  color: yellowgreen;
+}
+
+[data-color="#000"] {
+  color: #000;
+}
+
 
 
